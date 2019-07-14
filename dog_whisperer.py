@@ -7,6 +7,9 @@
 
 # TODO
 #
+# readme.md with screenshots and license
+# show progress while encoding/decoding
+# use colored output
 # acknowledgements
 # stop using global variables
 # use more specific file names
