@@ -7,7 +7,7 @@
 
 # TODO
 #
-# readme.md with screenshots and license
+# readme.md
 # show progress while encoding/decoding
 # use colored output
 # acknowledgements
