@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 # dog_whisperer is a small python script that uses gnuradio to hide encrypted data inside video files, using high frequency audio
-# author - mamatb
-# location - https://gitlab.com/mamatb/dog_whisperer.git
+# author - mamatb (t.me/m_amatb)
+# location - https://gitlab.com/mamatb/dog_whisperer
 
 # TODO
 #
