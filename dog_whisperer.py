@@ -7,12 +7,13 @@
 
 # TODO
 #
-# readme.md
 # show progress while encoding/decoding
 # use colored output
 # acknowledgements
-# stop using global variables
+# stop using global variables in favor of functions
 # use more specific file names
+# use argument parser (argparse)
+# deal with exceptions
 
 # FUTURE WORK
 #
@@ -253,11 +254,11 @@ class encoding_top_block(gr.top_block):
         
         # one encoded bit each (44100 / 100) samples of audio
         self.digital_gfsk_mod_0 = digital.gfsk_mod(
-        	samples_per_symbol = samp_rate / 100,
-        	sensitivity = 0.01,
-        	bt = 0.35,
-        	verbose = False,
-        	log = False,
+            samples_per_symbol = samp_rate / 100,
+            sensitivity = 0.01,
+            bt = 0.35,
+            verbose = False,
+            log = False,
         )
 
         # block that defines the source audio file
