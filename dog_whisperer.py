@@ -5,26 +5,6 @@
 # author - mamatb (t.me/m_amatb)
 # location - https://github.com/mamatb/dog_whisperer
 
-# TODO
-#
-# show progress while encoding/decoding
-# use colored output
-# acknowledgements
-# stop using global variables in favor of functions
-# use more specific file names
-# use argument parser (argparse)
-# deal with exceptions
-
-# FUTURE WORK
-#
-# deal with videos having more than one audio stream or none at all
-# offer different video formats to encode the data in
-# use buffered readers and writers to reduce the number of disk accesses
-# compress data before encoding into the audio
-# allow more bits per sample, error rates are so low
-# avoid using simple_aes_cipher as it wastes space by base64-encoding after encrypting
-# use frequency hiding techniques such as FHSS or DSSS
-
 # gnuradio imports
 from gnuradio import blocks
 from gnuradio import digital
