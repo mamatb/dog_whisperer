@@ -1,7 +1,8 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-# dog_whisperer is a small Python 2 script that uses GNU Radio to hide encrypted data inside video files, using high frequency audio
+# dog_whisperer is a simple Python 2 script that uses GNU Radio to hide encrypted data inside video files, using high frequency audio
+#
 # author - mamatb (t.me/m_amatb)
 # location - https://github.com/mamatb/dog_whisperer
 
