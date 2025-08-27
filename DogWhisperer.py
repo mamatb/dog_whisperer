@@ -1,10 +1,10 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-# dog_whisperer is a simple Python 2 script that uses GNU Radio to hide encrypted data inside video files, using high frequency audio
+# DogWhisperer is a simple Python 2 script that uses GNU Radio to hide encrypted data inside video files, using high frequency audio
 #
 # author - mamatb (t.me/m_amatb)
-# location - https://github.com/mamatb/dog_whisperer
+# location - https://github.com/mamatb/DogWhisperer
 
 # gnuradio imports
 from gnuradio import blocks
@@ -22,17 +22,17 @@ import md5
 from simple_aes_cipher import AESCipher, generate_secret_key
 
 # some variables
-program_name = 'dog_whisperer.py'
+program_name = 'DogWhisperer.py'
 video_container = ''
 input_file = ''
 password = ''
-tmp_audio_extracted = '/tmp/' + str(int(time.time())) + '_dog_whisperer_1.wav'
-tmp_audio_modified = '/tmp/' + str(int(time.time())) + '_dog_whisperer_2.wav'
-tmp_audio_converted = '/tmp/' + str(int(time.time())) + '_dog_whisperer.mp3'
-tmp_data_encrypted = '/tmp/' + str(int(time.time())) + '_dog_whisperer_1.data'
-tmp_data_formatted = '/tmp/' + str(int(time.time())) + '_dog_whisperer_2.data'
-tmp_data_plain = '/tmp/' + str(int(time.time())) + '_dog_whisperer_3.data'
-tmp_video_result = '/tmp/' + str(int(time.time())) + '_dog_whisperer.mp4'
+tmp_audio_extracted = '/tmp/' + str(int(time.time())) + '_DogWhisperer_1.wav'
+tmp_audio_modified = '/tmp/' + str(int(time.time())) + '_DogWhisperer_2.wav'
+tmp_audio_converted = '/tmp/' + str(int(time.time())) + '_DogWhisperer.mp3'
+tmp_data_encrypted = '/tmp/' + str(int(time.time())) + '_DogWhisperer_1.data'
+tmp_data_formatted = '/tmp/' + str(int(time.time())) + '_DogWhisperer_2.data'
+tmp_data_plain = '/tmp/' + str(int(time.time())) + '_DogWhisperer_3.data'
+tmp_video_result = '/tmp/' + str(int(time.time())) + '_DogWhisperer.mp4'
 
 # usage printing function
 def print_usage():
